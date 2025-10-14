@@ -1,0 +1,3 @@
+<section {{ $attributes->merge(['class' => 'bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 p-6 rounded-lg']) }}>
+    {{ $slot }}
+</section>
